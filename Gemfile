@@ -10,6 +10,7 @@ gem 'sqlite3'
 
 gem 'sqlite3-ruby','1.2.5', :require =>'sqlite3'
 
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
