@@ -8,7 +8,9 @@ gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-gem 'sqlite3-ruby','1.2.5', :require =>'sqlite3'
+#gem 'sqlite3-ruby','1.2.5', :require =>'sqlite3'
+
+gem 'sqlite3-ruby', '>= 1.3.1', :require => 'sqlite3'
 
 
 # Use Puma as the app server
@@ -71,3 +73,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'bootstrap-sass', '3.3.7'
+
+gem 'bcrypt',         '3.1.12'
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'rails-ujs', '~> 0.1.0'
+
+
+
